@@ -1,0 +1,21 @@
+{
+  "_info": "Nur Vorlage, keine echten Messwerte. Niemals private oder identifizierende Daten eintragen.",
+  "gpu": null,
+  "vram_gb": null,
+  "laptop_or_desktop": null,
+  "operating_system": null,
+  "ram_gb": null,
+  "comfyui_version": null,
+  "model": null,
+  "model_hash": null,
+  "quantization": null,
+  "width": null,
+  "height": null,
+  "fps": null,
+  "frames": null,
+  "steps": null,
+  "render_seconds": null,
+  "peak_vram_gb": null,
+  "result": "NOT_TESTED",
+  "remarks": null
+}

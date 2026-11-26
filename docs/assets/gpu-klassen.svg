@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="550" viewBox="0 0 1260 550" role="img" aria-labelledby="t">
+<title id="t">GPU- und VRAM-Klassen – illustrative Einordnung, keine Messwerte</title><defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#1ceaf8"/><stop offset="1" stop-color="#bb50ef"/></linearGradient></defs>
+<rect width="1260" height="550" rx="28" fill="#081022"/><text x="45" y="58" fill="#f2f6ff" font-family="Arial,sans-serif" font-size="33" font-weight="bold">Mehr GPU-Power: Was wird einfacher?</text>
+<text x="46" y="93" fill="#a7b9d5" font-family="Arial,sans-serif" font-size="17">VRAM schafft Spielraum – aber bestimmt nicht allein Bildqualität oder Renderzeit</text>
+<g font-family="Arial,sans-serif"><rect x="35" y="126" width="378" height="348" rx="23" fill="#111d39" stroke="#26cde7" stroke-width="2"/><rect x="441" y="126" width="378" height="348" rx="23" fill="#111d39" stroke="#8464ea" stroke-width="2"/><rect x="847" y="126" width="378" height="348" rx="23" fill="#111d39" stroke="#d15ce9" stroke-width="2"/>
+<text x="63" y="176" fill="#60eafa" font-size="26" font-weight="bold">6–8 GB VRAM</text><text x="468" y="176" fill="#b8a2ff" font-size="26" font-weight="bold">12–16 GB VRAM</text><text x="876" y="176" fill="#f49aff" font-size="26" font-weight="bold">24+ GB VRAM</text>
+<text x="63" y="223" fill="#e6f0ff" font-size="20">Kurze Clips / kleine Modelle</text><text x="468" y="223" fill="#e6f0ff" font-size="20">Mehr Reserven</text><text x="876" y="223" fill="#e6f0ff" font-size="20">Größere Modelle</text>
+<text x="63" y="260" fill="#a8b8d3" font-size="18">Oft Offloading in RAM</text><text x="63" y="292" fill="#a8b8d3" font-size="18">Sparsame Einstellungen</text><text x="63" y="324" fill="#a8b8d3" font-size="18">Mehr Wartezeit möglich</text>
+<text x="468" y="260" fill="#a8b8d3" font-size="18">Größere Workflows möglich</text><text x="468" y="292" fill="#a8b8d3" font-size="18">Weniger Offloading möglich</text><text x="468" y="324" fill="#a8b8d3" font-size="18">Nicht jedes 14B passt</text>
+<text x="876" y="260" fill="#a8b8d3" font-size="18">Weniger VRAM-Kompromisse</text><text x="876" y="292" fill="#a8b8d3" font-size="18">Mehr Experimentierfreiraum</text><text x="876" y="324" fill="#a8b8d3" font-size="18">Höherer Hardwarepreis</text>
+<path d="M66 375h300" stroke="#295575" stroke-width="4"/><path d="M472 375h300" stroke="#594e9b" stroke-width="4"/><path d="M881 375h300" stroke="#924ba3" stroke-width="4"/>
+<text x="64" y="414" fill="#6ee5b2" font-size="18" font-weight="bold">Für erste KI-Videotests</text><text x="469" y="414" fill="#6ee5b2" font-size="18" font-weight="bold">Für flexible Workflows</text><text x="876" y="414" fill="#6ee5b2" font-size="18" font-weight="bold">Für größere Projekte</text>
+<text x="45" y="515" fill="#b8c9e4" font-size="19">GPU + VRAM + RAM + SSD + CPU/Kühlung + Modell + Workflow = das Gesamtergebnis</text>
+</g></svg>

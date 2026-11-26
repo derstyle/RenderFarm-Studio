@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="t d">
+<title id="t">RenderFarm Studio</title><desc id="d">Leuchtendes hexagonales Netzwerk aus einem Render-Server und vier Renderstationen</desc>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#03e7f5"/><stop offset=".56" stop-color="#5d9cff"/><stop offset="1" stop-color="#d13dff"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect width="512" height="512" rx="105" fill="#070e22"/>
+<path d="M256 35 444 143 444 365 256 476 68 365 68 143Z" fill="#0c1630" stroke="url(#g)" stroke-width="11" filter="url(#glow)"/>
+<circle cx="256" cy="255" r="153" fill="none" stroke="#1f3769" stroke-width="4" stroke-dasharray="8 10"/>
+<g fill="none" stroke="url(#g)" stroke-width="8"><path d="M256 255V120M256 255L137 194M256 255L375 194M256 255L137 325M256 255L375 325"/></g>
+<g fill="#111f41" stroke="url(#g)" stroke-width="7"><path d="m256 188 70 40v80l-70 42-70-42v-80Z"/><path d="m256 188 70 40-70 41-70-41Z" fill="#194477"/><path d="M256 269v81M256 269l70-41M256 269l-70-41"/></g>
+<g fill="#142449" stroke="url(#g)" stroke-width="6"><rect x="218" y="79" width="76" height="76" rx="12"/><rect x="98" y="156" width="76" height="76" rx="12"/><rect x="338" y="156" width="76" height="76" rx="12"/><rect x="98" y="288" width="76" height="76" rx="12"/><rect x="338" y="288" width="76" height="76" rx="12"/></g>
+<g fill="#49edff"><rect x="205" y="287" width="101" height="8" rx="4"/><rect x="214" y="307" width="84" height="8" rx="4"/><circle cx="256" cy="117" r="8"/><circle cx="136" cy="193" r="8"/><circle cx="376" cy="193" r="8"/><circle cx="136" cy="326" r="8"/><circle cx="376" cy="326" r="8"/></g>
+</svg>

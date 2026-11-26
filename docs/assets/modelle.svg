@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="490" viewBox="0 0 1260 490" role="img" aria-labelledby="t">
+<title id="t">Modellfamilien in der RenderFarm: Wan 5B, Wan 14B, SDXL, FLUX, Spezialmodelle</title>
+<rect width="1260" height="490" rx="26" fill="#081022"/><g font-family="Arial,sans-serif">
+<text x="42" y="58" fill="#f1f6ff" font-size="32" font-weight="bold">Modelle: Was macht eigentlich was?</text><text x="42" y="90" fill="#acc1da" font-size="18">Katalogeinträge sind nicht automatisch fertige Renderadapter.</text>
+<rect x="35" y="123" width="282" height="285" rx="20" fill="#101e3d" stroke="#26d8ee" stroke-width="2"/><rect x="338" y="123" width="282" height="285" rx="20" fill="#101e3d" stroke="#9a72f8" stroke-width="2"/><rect x="640" y="123" width="282" height="285" rx="20" fill="#101e3d" stroke="#db71e5" stroke-width="2"/><rect x="942" y="123" width="282" height="285" rx="20" fill="#101e3d" stroke="#ffb575" stroke-width="2"/>
+<text x="58" y="173" fill="#60e4f5" font-size="26" font-weight="bold">Wan 2.2 5B</text><text x="359" y="173" fill="#b6a1ff" font-size="26" font-weight="bold">Wan 2.2 14B</text><text x="662" y="173" fill="#eda3f5" font-size="26" font-weight="bold">SDXL / FLUX</text><text x="960" y="173" fill="#ffd092" font-size="26" font-weight="bold">Spezialmodelle</text>
+<text x="58" y="212" fill="#e4efff" font-size="20">Text/Bild → Video</text><text x="359" y="212" fill="#e4efff" font-size="20">Text/Bild → Video</text><text x="662" y="212" fill="#e4efff" font-size="20">Bildgenerierung</text><text x="960" y="212" fill="#e4efff" font-size="20">Z. B. Fine-Tunes</text>
+<text x="58" y="260" fill="#aec0db" font-size="18">Experimenteller</text><text x="58" y="287" fill="#aec0db" font-size="18">5B-Renderpfad</text><text x="58" y="339" fill="#66e2ae" font-size="17">GPU-Test noch offen</text>
+<text x="359" y="260" fill="#aec0db" font-size="18">Größere Gewichte</text><text x="359" y="287" fill="#aec0db" font-size="18">Mehr Speicherbedarf</text><text x="359" y="339" fill="#f8c67a" font-size="17">Renderprofil fehlt</text>
+<text x="662" y="260" fill="#aec0db" font-size="18">SDXL und FLUX sind</text><text x="662" y="287" fill="#aec0db" font-size="18">keine Videomodelle</text><text x="662" y="339" fill="#f8c67a" font-size="17">Zugang/Lizenz prüfen</text>
+<text x="960" y="260" fill="#aec0db" font-size="18">Separater 18+-Katalog</text><text x="960" y="287" fill="#aec0db" font-size="18">Modellbasis variiert</text><text x="960" y="339" fill="#f8c67a" font-size="17">Keine Projektisolation</text>
+<text x="41" y="459" fill="#9caecc" font-size="17">Illustrative Übersicht · keine Qualitätsrangliste und kein Ersatz für Modell-Lizenzen.</text>
+</g></svg>

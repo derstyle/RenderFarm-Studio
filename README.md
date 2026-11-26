@@ -93,3 +93,7 @@ Bitte keine Kennwörter, fremden Nutzerdaten, privaten Filme/Prompts, persönlic
 ---
 
 *Stand: 26. November 2026 · Public-Alpha-Projekt. Die originalen großen PNG-Grafiken und der vollständige Alpha-Quellcode werden nach einer separaten Veröffentlichungsprüfung ergänzt. Die gezeigten SVGs sind illustrative Projektgrafiken.*
+
+## Entwicklung unterstützen ☕
+
+RenderFarm Studio wird von **Dampfrad Labs** entwickelt. Wenn dir das Projekt gefällt, kannst du seine Weiterentwicklung freiwillig unterstützen: [Buy Me a Coffee – Dampfrad Labs](https://buymeacoffee.com/timmeyerdea). Alle Funktionen bleiben ohne Spende zugänglich. Die aktuelle experimentelle Alpha ist noch kein bestätigtes Produktionsrelease.

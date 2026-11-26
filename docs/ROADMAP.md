@@ -32,3 +32,11 @@
 - **Test erfolgreich:** Ein NAS-Textbericht ist kein Videorender.
 
 **Keine produktive Queue ohne getestete Versionskompatibilität migrieren.** `1.8.x` und Unified Alpha werden getrennt betrieben. GitHub Projects ist unser Aufgabenboard; beim manuellen Hinzufügen von Issues zum Board bleiben die Issues selbst die Datenquelle.
+
+## Community-Farm-Lobby · spätere Ausbaustufe
+
+- [ ] [#8](https://github.com/derstyle/RenderFarm-Studio/issues/8): Öffentliche/private Farmen wie Gaming-Server entdecken, Farm-Profile und Einladungen.
+- [ ] Standardmäßig private Farm, Beitritt nur mit ausdrücklicher Zustimmung, getrennte Projekte und Rechte.
+- [ ] Online-Verzeichnis und Renderzugriff strikt trennen; kein direktes Öffnen von NAS-/ComfyUI-Zugängen ins Internet.
+- [ ] Premium-UI erhalten: eigener Lobby-Bereich statt Überladung der bestehenden Seiten.
+- [ ] Erst nach sicherer Authentifizierung, Relay und Freigabemechanismus fremdes Remote-Rendering.

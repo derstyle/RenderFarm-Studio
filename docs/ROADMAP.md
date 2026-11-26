@@ -56,3 +56,11 @@
 - [ ] Einmaligen 0.8.3-zu-0.8.4-Übergang auf Windows praktisch validieren.
 - [ ] Ab 0.8.4 automatische sichere Updateübergabe auf Windows, Linux und macOS praktisch validieren.
 - [ ] Aktive GPU-Aufträge, ComfyUI-Fremdnutzung und NAS-Ausfälle auf realer Hardware testen.
+
+## Unified 0.8.5 – lokaler All-Stations-Teststand
+
+- [x] [#11](https://github.com/derstyle/RenderFarm-Studio/issues/11): Portable ComfyUI-Erkennung, eingebettetes Python und Stations-Checkliste (Softwaretests).
+- [x] [#12](https://github.com/derstyle/RenderFarm-Studio/issues/12): ZIP-Projekte importieren und Projektbilder für Shots nutzen (noch kein Auto-Batch).
+- [x] [#13](https://github.com/derstyle/RenderFarm-Studio/issues/13): Installationsort migrierter Stationen beim normalen Update respektieren; Farm-Updateangebote zur manuellen Bestätigung.
+- [ ] Windows/Linux/Mac-Upgrades auf echten PCs bestätigen; Wan 2.2 5B und Wan 2.1 GGUF in ComfyUI real testen.
+- [ ] Signierte Pakete, sichere Online-Farm-Authentifizierung und zustimmungsbasierte automatische Installation entwickeln.

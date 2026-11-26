@@ -1,24 +1,34 @@
-# Roadmap · Vom Experiment zur zuverlässigen RenderFarm
+# RenderFarm Studio · Entwickler-Taskliste
 
-## Phase 1 · Echter Rendernachweis
-- [ ] Wan 2.2 5B erzeugt auf echter GPU einen abspielbaren Clip.
-- [ ] Sender und Linux-Worker bestehen gemeinsame NAS-/Queue-Tests.
-- [ ] Sender und Windows-Worker funktionieren ohne Zugriff auf die alte produktive Queue.
-- [ ] ComfyUI-/Modell-/Treiber-Fehler sind verständlich und handlungsorientiert.
-- [ ] Laufende Jobs lassen sich zuverlässig abbrechen oder nach Neustart wiederaufnehmen.
+**Stand: 26.11.2026 · Unified Alpha 0.6 RC2 lokal verfügbar · noch kein validiertes Produktionsrelease**
 
-## Phase 2 · Installation, Bedienung, Sicherheit
-- [ ] Nachvollziehbare native Installer für Windows, Linux (mehrere Distributionen) und macOS.
-- [ ] Hardwareprofile und Vorschläge mit echten Kompatibilitätstests.
-- [ ] Die Funktionen aus Studio 1.8.x (Shots, Regie, Action Director) sind übernommen.
-- [ ] Queue-Priorität, Fortschritt, ETA und gezielte Stationszuweisung.
-- [ ] Remote-Updateangebote nur mit **expliziter Zustimmung** der betreffenden Station.
-- [ ] Geprüfte Download-Hashes und authentifizierte Aufträge.
+## Nächster Meilenstein: gemeinsame Farm und Community
 
-## Phase 3 · Intelligente Projektwerkzeuge
-- [ ] Getrennte Projektprofile, Referenzen und Korrekturen (inklusive 18+-Isolation).
-- [ ] Kleine Feedbacknotizen statt unkontrollierter großer Videoarchive.
-- [ ] Wiederkehrende Fehler erkennen und verbesserte Workflowparameter vorschlagen.
-- [ ] Optionales, nutzerbestätigtes LoRA-Training bei kompatibler Hardware.
+| Prio | Aufgabe | GitHub | Stand |
+|---|---|---|---|
+| P0 | Echter Wan-2.2-5B-GPU-Videotest | [#1](https://github.com/derstyle/RenderFarm-Studio/issues/1) | Noch ausstehend |
+| P0 | Installation unter Linux, Windows und macOS prüfen | [#2](https://github.com/derstyle/RenderFarm-Studio/issues/2) | Softwaretests, Praxistest unvollständig |
+| P0 | Windows↔Linux über denselben NAS-Farmordner | [#7](https://github.com/derstyle/RenderFarm-Studio/issues/7) | Noch nicht bestätigt |
+| P1 | Farm-Cockpit mit Online/Busy/Renderbereit/Offline | [#4](https://github.com/derstyle/RenderFarm-Studio/issues/4) | Heartbeat und einfache Liste vorhanden, Feinstatus fehlt |
+| P1 | Sicheres Ausklinken, Pausieren, Wiederverbinden | [#6](https://github.com/derstyle/RenderFarm-Studio/issues/6) | Geplant |
+| P1 | Kompakter Farm-Chat für verbundene PCs | [#5](https://github.com/derstyle/RenderFarm-Studio/issues/5) | Geplant |
+| P1 | Queue-Sicherheit, Jobabbruch, Update-Zustimmung | [#3](https://github.com/derstyle/RenderFarm-Studio/issues/3) | Geplant |
 
-*Eine Roadmap ist eine Absichtserklärung, keine Terminzusage.*
+## Danach: besseres Produkt
+
+- [ ] Vollständige Shots-/Regie-/Action-Director-Funktionen aus Studio 1.8.x übernehmen
+- [ ] Benutzerfreundliche Installer für Windows/Linux/macOS mit Desktop-Icon-Option
+- [ ] Modellquelle und GPU-Kompatibilität direkt pro Station prüfen
+- [ ] NAS, Cloud-Export und lokale Modellcaches sauber trennen
+- [ ] Zustimmungsbasierte signierte Updateangebote pro Station
+- [ ] Projektweise isoliertes Korrekturgedächtnis – keine Übernahme zwischen Projekten
+- [ ] Optionales LoRA-Training erst nach realistischen Hardwaretests
+
+## Begriffe, die nicht verwechselt werden dürfen
+
+- **Online:** Frischer Worker-Heartbeat, nicht bloß NAS-Zugriff.
+- **Verbunden:** Gleicher Farmordner und kompatibles Queue-Protokoll.
+- **Renderbereit:** Worker läuft, ComfyUI/Profil/Modell technisch bereit und keine Sperre.
+- **Test erfolgreich:** Ein NAS-Textbericht ist kein Videorender.
+
+**Keine produktive Queue ohne getestete Versionskompatibilität migrieren.** `1.8.x` und Unified Alpha werden getrennt betrieben. GitHub Projects ist unser Aufgabenboard; beim manuellen Hinzufügen von Issues zum Board bleiben die Issues selbst die Datenquelle.

@@ -40,3 +40,11 @@
 - [ ] Online-Verzeichnis und Renderzugriff strikt trennen; kein direktes Öffnen von NAS-/ComfyUI-Zugängen ins Internet.
 - [ ] Premium-UI erhalten: eigener Lobby-Bereich statt Überladung der bestehenden Seiten.
 - [ ] Erst nach sicherer Authentifizierung, Relay und Freigabemechanismus fremdes Remote-Rendering.
+
+## Benutzerkonten und Anmeldung
+
+- [x] [#9](https://github.com/derstyle/RenderFarm-Studio/issues/9): Lokales Offline-Profil und „Angemeldet bleiben“ im Alpha-0.8-Testpaket umgesetzt.
+- [ ] Google OAuth Desktop-App für Dampfrad Labs registrieren/verifizieren und Ende-zu-Ende testen.
+- [ ] Apple Login über sichere HTTPS-Rückrufadresse und registrierte Services ID implementieren.
+- [ ] Optional GitHub Login hinzufügen.
+- [ ] Verifizierte Nutzerkonten **nicht** mit Renderfarm-Berechtigungen verwechseln; öffentliche Farmen brauchen getrennte Rollen-/Einwilligungsprüfung.

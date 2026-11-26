@@ -1,6 +1,6 @@
 <div align="center">
 
-# RenderFarm Studio
+<img src="docs/assets/logo.svg" width="116" alt="RenderFarm Studio Logo">\n\n# RenderFarm Studio
 
 **Eine RenderFarm. Viele Rechner. Ein verständliches Studio.**
 
@@ -49,7 +49,7 @@ Ein gemeinsamer, vom Betriebssystem bereitgestellter Farm-Ordner (z. B. NAS) ver
 
 [**Ausführliche Statusübersicht**](docs/STATUS.md) · [**Roadmap**](docs/ROADMAP.md)
 
-## Warum GPU-Leistung nicht gleich Bildqualität ist
+## Warum GPU-Leistung nicht gleich Bildqualität ist\n\n![GPU- und VRAM-Klassen](docs/assets/gpu-klassen.svg)
 
 | Grafikspeicher | Typische Möglichkeiten | Häufige Einschränkungen |
 | --- | --- | --- |
@@ -59,7 +59,7 @@ Ein gemeinsamer, vom Betriebssystem bereitgestellter Farm-Ordner (z. B. NAS) ver
 
 **Einordnung statt Benchmark:** Tatsächliche Renderzeit, Qualität und Modellunterstützung müssen reproduzierbar gemessen werden.
 
-[GPU und VRAM erklärt](docs/HARDWARE.md) · [Modellfamilien](docs/MODELLE.md) · [Benchmarks mitmachen](docs/BENCHMARKS.md)
+[GPU und VRAM erklärt](docs/HARDWARE.md) · [Modellfamilien](docs/MODELLE.md) · [Benchmarks mitmachen](docs/BENCHMARKS.md)\n\n![Modellfamilien im Überblick](docs/assets/modelle.svg)
 
 ## Architektur
 
@@ -92,4 +92,4 @@ Bitte keine Kennwörter, fremden Nutzerdaten, privaten Filme/Prompts, persönlic
 
 ---
 
-*Stand: 26. November 2026 · Public-Alpha-Projekt. Grafiken und vollständige Quellcodepakete werden nach Abschluss der Veröffentlichungsprüfung ergänzt.*
+*Stand: 26. November 2026 · Public-Alpha-Projekt. Die originalen großen PNG-Grafiken und der vollständige Alpha-Quellcode werden nach einer separaten Veröffentlichungsprüfung ergänzt. Die gezeigten SVGs sind illustrative Projektgrafiken.*

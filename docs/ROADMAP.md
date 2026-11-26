@@ -48,3 +48,11 @@
 - [ ] Apple Login über sichere HTTPS-Rückrufadresse und registrierte Services ID implementieren.
 - [ ] Optional GitHub Login hinzufügen.
 - [ ] Verifizierte Nutzerkonten **nicht** mit Renderfarm-Berechtigungen verwechseln; öffentliche Farmen brauchen getrennte Rollen-/Einwilligungsprüfung.
+
+## Dienststeuerung / zuverlässige Updates
+
+- [x] [#10](https://github.com/derstyle/RenderFarm-Studio/issues/10): In lokal gebauter Alpha 0.8.4 geordneten App-Stopp, Windows-Startmenü-Stopp und tokenbasierte Updateübergabe implementiert.
+- [x] 51 Softwaretests sowie lokaler Start-/Stopp-/Neustart-/Updater-Test bestanden.
+- [ ] Einmaligen 0.8.3-zu-0.8.4-Übergang auf Windows praktisch validieren.
+- [ ] Ab 0.8.4 automatische sichere Updateübergabe auf Windows, Linux und macOS praktisch validieren.
+- [ ] Aktive GPU-Aufträge, ComfyUI-Fremdnutzung und NAS-Ausfälle auf realer Hardware testen.

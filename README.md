@@ -96,4 +96,4 @@ Bitte keine Kennwörter, fremden Nutzerdaten, privaten Filme/Prompts, persönlic
 
 ## Entwicklung unterstützen ☕
 
-RenderFarm Studio wird von **Dampfrad Labs** entwickelt. Wenn dir das Projekt gefällt, kannst du seine Weiterentwicklung freiwillig unterstützen: [Buy Me a Coffee – Dampfrad Labs](https://buymeacoffee.com/timmeyerdea). Alle Funktionen bleiben ohne Spende zugänglich. Die aktuelle experimentelle Alpha ist noch kein bestätigtes Produktionsrelease.
+RenderFarm Studio wird von **Dampfrad Labs** entwickelt. Wenn dir das Projekt gefällt, kannst du seine Weiterentwicklung freiwillig unterstützen: [Buy Me a Coffee – Dampfrad Labs](https://buymeacoffee.com/dampfradlabs). Alle Funktionen bleiben ohne Spende zugänglich. Die aktuelle experimentelle Alpha ist noch kein bestätigtes Produktionsrelease.

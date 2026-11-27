@@ -78,3 +78,12 @@
 - [ ] Realen FRITZ!NAS-Schreib-/Ersetzungstest und tatsächliche nachträgliche Bereinigung am Windows-PC prüfen.
 - [ ] Multi-PC-Protokoll und 0.8.7-Worker-Kompatibilität auf Windows/Linux mit echten GPU-Jobs nachweisen.
 - [ ] Endframe, Referenzvideo und Bildsequenz erst nach gesonderter Implementierung und E2E-Validierung als Renderinput freigeben.
+
+## Unified Alpha 0.8.8 – Live-Farm, Update-Dialog, Farmprofile
+
+- [x] [#16](https://github.com/derstyle/RenderFarm-Studio/issues/16): Eigener leichter Live-Status für alle Jobs/Stationen, Names statt kryptischen IDs, Farm-ID und editierbarer Farmname, Premium-Updatehinweis, klarer Pausenstatus, einheitlicher Header.
+- [x] 72 Softwaretests + lokaler Zwei-Prozess-Test mit gemeinsamer Queue, Farmprofil-Update, gemeinsamer Farm-ID und Update-Ankündigung; Chromium-Layout bei 1600/1280/950 px geprüft.
+- [x] Basisordner-Trennung für reguläre/18+-Farmen konkret erklärt und unbeabsichtigte Umklassifizierung alter Queue verhindert.
+- [ ] Auf echter FRITZ!NAS-Freigabe mit Sender + Windows-Worker + Linux-Worker prüfen, dass alle dieselbe Farm-ID und ihre Live-Aufträge sehen.
+- [ ] Stornierte, aber eventuell noch in ComfyUI laufende Jobs nur nach sicherem Abschluss entfernen (kein unsicherer Remote-Hardkill).
+- [ ] Vor Veröffentlichung prüfen, ob neue Updateangebote auf echten Clients sichtbar erscheinen; Downloader installiert nicht automatisch.

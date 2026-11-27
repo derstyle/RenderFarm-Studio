@@ -87,3 +87,12 @@
 - [ ] Auf echter FRITZ!NAS-Freigabe mit Sender + Windows-Worker + Linux-Worker prüfen, dass alle dieselbe Farm-ID und ihre Live-Aufträge sehen.
 - [ ] Stornierte, aber eventuell noch in ComfyUI laufende Jobs nur nach sicherem Abschluss entfernen (kein unsicherer Remote-Hardkill).
 - [ ] Vor Veröffentlichung prüfen, ob neue Updateangebote auf echten Clients sichtbar erscheinen; Downloader installiert nicht automatisch.
+
+## Unified Alpha 0.8.9 – Ein-Ordner-Einrichtung und Farm-Rückwechsel
+
+- [x] [#17](https://github.com/derstyle/RenderFarm-Studio/issues/17): Ein Farm-Basisordner genügt; Unterordner und feste ID bei neuen Farmen automatisch anlegen, kompatible vorhandene Farmen inklusive einzigartiger direkter Unterordner erkennen, ohne vorhandene Daten zu löschen.
+- [x] Archivoptionen in der Einrichtung ausblenden (bei Bedarf Expertenbereich), Modelle pro Station gesondert konfigurieren und pro Farm merken.
+- [x] Farm A → B → A stellt lokale Speicher-/Modellkonfiguration wieder her, ohne Projekt-/Queue-Dateien zu kopieren; Worker/GPU-Job blockiert Wechsel.
+- [x] 78 Softwaretests inkl. HTTP-API-Einrichtung + JavaScript-Syntax geprüft, ZIP und Linux-.deb erstellt.
+- [ ] Sicht-/Installationsprüfung auf echten Geräten und erneuter NAS-/SMB-GPU-Auftragsversuch mit passenden Farm-IDs.
+- [ ] Testdateien nur nach gezielter Auswahl und Sicherheitsausschluss aktiver Jobs bereinigen; keine automatische Massenlöschung.

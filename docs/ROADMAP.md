@@ -96,3 +96,11 @@
 - [x] 78 Softwaretests inkl. HTTP-API-Einrichtung + JavaScript-Syntax geprüft, ZIP und Linux-.deb erstellt.
 - [ ] Sicht-/Installationsprüfung auf echten Geräten und erneuter NAS-/SMB-GPU-Auftragsversuch mit passenden Farm-IDs.
 - [ ] Testdateien nur nach gezielter Auswahl und Sicherheitsausschluss aktiver Jobs bereinigen; keine automatische Massenlöschung.
+
+## Unified Alpha 0.9.0 – Sender Studio und Ausgabeprofile
+
+- [x] [#19](https://github.com/derstyle/RenderFarm-Studio/issues/19): Medienart Bild/Video/Audio, Eingaben Einzelshot/Bildserie/Projekt-ZIP, zentrale Ausgabe-/Stationswahl und responsives UI.
+- [x] Vier echte Seitenverhältnisse für Wan-Renderjobs; Schnell/Standard/Detail verändern Sampling-Schritte, nicht nur Labels.
+- [x] 88 Softwaretests und lokaler Drei-Shot-Batch mit 9:16/Detail; ältere Jobs behalten 16:9/Standard. ZIP-/Debian-Integrität geprüft.
+- [ ] Audio-/Bild-Renderadapter, echtes Keyframe-Video, Auflösung/Codec/FPS/Seed als getrennte, validierte Features ergänzen.
+- [ ] Echte Wan-GPU-Tests und Windows-/Linux-Installationsprüfung, alle Farm-Worker müssen die neuen Felder verstehen.

@@ -71,3 +71,10 @@
 - [x] [#12](https://github.com/derstyle/RenderFarm-Studio/issues/12): Bereits importierte ZIP-Projekte erkennen; Shots aus JSON-Manifests vorschauen, einzeln oder gemeinsam einreihen. Doppelte Projekt-Shots vermeiden.
 - [ ] Auf FRITZ!NAS SMB-Schreibrechte/`WinError 5` unter realem Mehrrechnerbetrieb prüfen. Die App wiederholt temporär gesperrte atomare Schreibvorgänge, ersetzt aber keine Freigaberechte.
 - [ ] Echte GPU-Videorender auf Windows/Linux bestätigen; laufende ComfyUI-Jobs nicht hart stoppen.
+
+## Unified Alpha 0.8.7 – NAS-Stabilität, Sender-Eingaben, Modellziel & UI
+
+- [x] [#15](https://github.com/derstyle/RenderFarm-Studio/issues/15): SMB-Statusereignis-Fallback, echte Rename-Speicherprobe, Aufräumvormerkung bei WinError 32, Projektarchiv-Löschen, NAS-/SSD-Kapazität, Modellziel pro Station, Sender-Startframe und Storyboard-Bildserien (66 Tests, lokaler HTTP- und Chromium-Layoutcheck).
+- [ ] Realen FRITZ!NAS-Schreib-/Ersetzungstest und tatsächliche nachträgliche Bereinigung am Windows-PC prüfen.
+- [ ] Multi-PC-Protokoll und 0.8.7-Worker-Kompatibilität auf Windows/Linux mit echten GPU-Jobs nachweisen.
+- [ ] Endframe, Referenzvideo und Bildsequenz erst nach gesonderter Implementierung und E2E-Validierung als Renderinput freigeben.

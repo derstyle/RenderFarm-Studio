@@ -64,3 +64,10 @@
 - [x] [#13](https://github.com/derstyle/RenderFarm-Studio/issues/13): Installationsort migrierter Stationen beim normalen Update respektieren; Farm-Updateangebote zur manuellen Bestätigung.
 - [ ] Windows/Linux/Mac-Upgrades auf echten PCs bestätigen; Wan 2.2 5B und Wan 2.1 GGUF in ComfyUI real testen.
 - [ ] Signierte Pakete, sichere Online-Farm-Authentifizierung und zustimmungsbasierte automatische Installation entwickeln.
+
+## Unified 0.8.6 – gemeinsame Auftragsliste und Projektserien
+
+- [x] [#14](https://github.com/derstyle/RenderFarm-Studio/issues/14): **Aufträge** als eigener Haupttab für alle Rollen, inklusive Statusfiltern, Storno und sicherem Entfernen einzelner beendeter Jobs (61 Softwaretests).
+- [x] [#12](https://github.com/derstyle/RenderFarm-Studio/issues/12): Bereits importierte ZIP-Projekte erkennen; Shots aus JSON-Manifests vorschauen, einzeln oder gemeinsam einreihen. Doppelte Projekt-Shots vermeiden.
+- [ ] Auf FRITZ!NAS SMB-Schreibrechte/`WinError 5` unter realem Mehrrechnerbetrieb prüfen. Die App wiederholt temporär gesperrte atomare Schreibvorgänge, ersetzt aber keine Freigaberechte.
+- [ ] Echte GPU-Videorender auf Windows/Linux bestätigen; laufende ComfyUI-Jobs nicht hart stoppen.
